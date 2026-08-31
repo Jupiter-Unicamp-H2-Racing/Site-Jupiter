@@ -1,0 +1,29 @@
+.sponsor-card-link {
+  text-decoration: none;
+  display: block;
+}
+
+.sponsor-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.sponsor-card-wordmark {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
+  opacity: 0.8;
+  text-transform: uppercase;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.sponsor-card-link:hover .sponsor-card-wordmark {
+  opacity: 1;
+  color: var(--color-purple-light);
+}

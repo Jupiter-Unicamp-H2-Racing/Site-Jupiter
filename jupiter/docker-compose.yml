@@ -1,0 +1,28 @@
+services:
+  backend:
+    build: ./backend
+    container_name: jupiter-backend
+    restart: unless-stopped
+    volumes:
+      # Mantém os dados fora da imagem: dá para editar os JSON direto no
+      # servidor (ou trocar por um painel admin no futuro) sem rebuild.
+      - ./backend/data:/app/data
+    expose:
+      - "3000"
+    networks:
+      - jupiter-net
+
+  frontend:
+    build: ./frontend
+    container_name: jupiter-frontend
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    depends_on:
+      - backend
+    networks:
+      - jupiter-net
+
+networks:
+  jupiter-net:
+    driver: bridge

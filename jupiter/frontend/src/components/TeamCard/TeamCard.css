@@ -1,0 +1,71 @@
+.team-card {
+  position: relative;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.1rem;
+}
+
+.team-card-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.05rem;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-h-gamma), var(--color-h-delta));
+  box-shadow: 0 8px 24px -10px rgba(124, 31, 224, 0.65);
+}
+
+.team-card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.team-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin: 0;
+  line-height: 1.35;
+}
+
+.team-card-role {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-h-beta);
+  margin: 0;
+}
+
+.team-card-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(124, 31, 224, 0.08);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.team-card-linkedin img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  border-radius: 3px;
+}
+
+.team-card-linkedin:hover {
+  background: rgba(124, 31, 224, 0.22);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nome": "Jupiter H2",
+    "categoria": "Baja SAE elétrico a hidrogênio",
+    "ano": 2021,
+    "status": "Finalizado",
+    "resumo": "Protótipo de baja totalmente elétrico cuja principal fonte de energia é uma célula a combustível de hidrogênio, em vez de baterias convencionais.",
+    "descricao": "O Jupiter H2 nasceu para explorar uma alternativa às baterias de íon-lítio tradicionalmente usadas em veículos elétricos de competição. Uma célula a combustível converte hidrogênio em energia elétrica, tendo como único subproduto vapor d'água — o que torna o veículo limpo na ponta de uso e abre discussões relevantes sobre autonomia, tempo de reabastecimento e peso do sistema em comparação com baterias.",
+    "destaques": [
+      "Célula a combustível de hidrogênio como fonte primária de energia",
+      "Powertrain 100% elétrico",
+      "Emissão local de apenas vapor d'água",
+      "Chassi e suspensão desenvolvidos internamente pela equipe"
+    ]
+  }
+]

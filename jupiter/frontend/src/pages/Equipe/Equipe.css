@@ -1,0 +1,57 @@
+.equipe-grupo {
+  margin-bottom: 4.5rem;
+}
+
+.equipe-grupo:last-child {
+  margin-bottom: 0;
+}
+
+.equipe-grupo-title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin: 0 0 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* A Capitã recebe destaque isolado: um único card centralizado. */
+.equipe-grupo:has(.grid > :only-child) .grid {
+  grid-template-columns: minmax(0, 280px);
+  justify-content: center;
+}
+
+/* Centraliza os cards de cada grupo (em vez de empurrá-los para a
+   esquerda/direita quando a última linha não preenche as 4 colunas). */
+.equipe-page .grid--4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.equipe-page .grid--4 > * {
+  flex: 0 1 calc(25% - 1.3125rem);
+  max-width: calc(25% - 1.3125rem);
+}
+
+@media (max-width: 960px) {
+  .equipe-page .grid--4 > * {
+    flex: 0 1 calc(50% - 0.875rem);
+    max-width: calc(50% - 0.875rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .equipe-page .grid--4 > * {
+    flex: 0 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .equipe-grupo {
+    margin-bottom: 3rem;
+  }
+}

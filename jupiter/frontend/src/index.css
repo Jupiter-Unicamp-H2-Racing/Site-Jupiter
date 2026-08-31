@@ -1,0 +1,60 @@
+/* Reset & base -------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-white);
+  font-family: var(--font-body);
+}
+
+.app-shell {
+  position: relative;
+  z-index: 1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Acessibilidade: foco sempre visível ---------------------------------- */
+:focus-visible {
+  outline: 2px solid var(--color-h-gamma);
+  outline-offset: 3px;
+}
+
+/* Respeita preferência por menos movimento ------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

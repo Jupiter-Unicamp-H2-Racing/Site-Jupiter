@@ -1,0 +1,130 @@
+.timeline {
+  position: relative;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0.5rem 0 0;
+  max-width: 920px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  border-radius: 3px;
+  background-image: repeating-conic-gradient(
+    var(--color-white) 0% 25%,
+    var(--color-h-delta) 0% 50%
+  );
+  background-size: 6px 6px;
+  opacity: 0.45;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 0 3.5rem 3.5rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item--left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item--right {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 0.35rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--color-h-gamma);
+  box-shadow: 0 0 0 5px var(--color-bg), 0 0 18px rgba(124, 31, 224, 0.65);
+}
+
+.timeline-item--left .timeline-dot {
+  right: -8px;
+}
+
+.timeline-item--right .timeline-dot {
+  left: -8px;
+}
+
+.timeline-dot--atual {
+  background: var(--color-h-beta);
+  box-shadow: 0 0 0 5px var(--color-bg), 0 0 22px rgba(58, 217, 240, 0.8);
+  animation: timeline-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes timeline-pulse {
+  0%, 100% { box-shadow: 0 0 0 5px var(--color-bg), 0 0 14px rgba(58, 217, 240, 0.6); }
+  50% { box-shadow: 0 0 0 5px var(--color-bg), 0 0 26px rgba(58, 217, 240, 0.95); }
+}
+
+.timeline-card {
+  display: inline-block;
+  text-align: left;
+  max-width: 420px;
+  padding: 1.65rem 1.85rem;
+}
+
+.timeline-year {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: var(--color-h-beta);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin: 0 0 0.6rem;
+}
+
+.timeline-text {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item,
+  .timeline-item--left,
+  .timeline-item--right {
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 0 0 2.75rem 3.75rem;
+  }
+
+  .timeline-item--left .timeline-dot,
+  .timeline-item--right .timeline-dot {
+    left: 12px;
+    right: auto;
+  }
+
+  .timeline-card {
+    max-width: 100%;
+  }
+}

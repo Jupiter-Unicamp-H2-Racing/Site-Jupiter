@@ -1,0 +1,5 @@
+# Netlify: encaminha as chamadas /api/* para o backend hospedado no Render.
+# Troque a URL abaixo pela URL real do seu serviço no Render depois do deploy
+# do backend (Passo 2 do guia), ex: https://jupiter-backend.onrender.com
+/api/*  https://SEU-BACKEND.onrender.com/api/:splat  200
+/*      /index.html  200
