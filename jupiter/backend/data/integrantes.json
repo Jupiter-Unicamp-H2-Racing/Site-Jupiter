@@ -1,17 +1,170 @@
 [
-  { "id": 1, "nome": "Antonio Fernando São Matheus Cordeiro", "cargo": "Membro da ECI", "linkedin": "" },
-  { "id": 3, "nome": "Bruno Seiti Nishida", "cargo": "Coordenador da ECI", "linkedin": "" },
-  { "id": 4, "nome": "Giovanni Schettini Innecco", "cargo": "Diretor de Manufatura", "linkedin": "" },
-  { "id": 5, "nome": "Giulia Tomaz Medeiros Zuffo", "cargo": "Capitã", "linkedin": "" },
-  { "id": 6, "nome": "Marco Antonio Zacharias Lara Correa", "cargo": "Diretor da Mecânica", "linkedin": "" },
-  { "id": 7, "nome": "Matheus Silva Rodrigues", "cargo": "Coordenador da Mecânica", "linkedin": "" },
-  { "id": 8, "nome": "Miguel de Moura Crespo", "cargo": "Diretor da ECI", "linkedin": "" },
-  { "id": 9, "nome": "Pedro Landgraf Pinto", "cargo": "Membro da Mecânica", "linkedin": "" },
-  { "id": 10, "nome": "Vinícius Duarte Ursini", "cargo": "Membro da ECI", "linkedin": "" },
-  { "id": 11, "nome": "Pedro Antuan de Itapema Issa", "cargo": "Membro da ECI", "linkedin": "" },
-  { "id": 12, "nome": "Enzo Nantes Rodrigues", "cargo": "Membro da ECI", "linkedin": "" },
-  { "id": 13, "nome": "Vitor Yugo Tanaka Teixeira de Camargo", "cargo": "Membro da ECI", "linkedin": "" },
-  { "id": 14, "nome": "Lucca Nogueira Ronzella", "cargo": "Membro da Mecânica", "linkedin": "" },
-  { "id": 15, "nome": "Diego Rodrigues Paduano", "cargo": "Membro da Mecânica", "linkedin": "" },
-  { "id": 16, "nome": "Bruna Takaki Schmidt", "cargo": "Membro da Mecânica", "linkedin": "" }
+  {
+    "id": 1,
+    "nome": "Antonio Fernando São Matheus Cordeiro",
+    "cargo": "Membro da ECI",
+    "linkedin": "https://www.linkedin.com/in/antoniofernandocordeiro/",
+    "foto": "antonio_fernando.png"
+  },
+  {
+    "id": 2,
+    "nome": "Arthur Denni Rocha",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 3,
+    "nome": "Bruno Seiti Nishida",
+    "cargo": "Coordenador da ECI",
+    "linkedin": "https://www.linkedin.com/in/bruno-undefined-4a16333b6/"
+  },
+  {
+    "id": 4,
+    "nome": "Giovanni Schettini Innecco",
+    "cargo": "Diretor de Manufatura",
+    "linkedin": "https://www.linkedin.com/in/giovanni-schettini-innecco-9a0661373/",
+    "foto": "giovanni.png"
+  },
+  {
+    "id": 5,
+    "nome": "Giulia Tomaz Medeiros Zuffo",
+    "cargo": "Capitã",
+    "linkedin": "https://www.linkedin.com/in/giulia-z-059604201/",
+    "foto": "giulia.png"
+  },
+  {
+    "id": 6,
+    "nome": "Marco Antonio Zacharias Lara Correa",
+    "cargo": "Diretor da Mecânica",
+    "linkedin": "https://www.linkedin.com/in/marco-antonio-zacharias-lara-correa-34360b276/",
+    "foto": "marco.png"
+  },
+  {
+    "id": 7,
+    "nome": "Matheus Silva Rodrigues",
+    "cargo": "Coordenador da Mecânica",
+    "linkedin": "https://www.linkedin.com/in/matheus-silva-rodrigues-28722a304/",
+    "foto": "matheus.png"
+  },
+  {
+    "id": 8,
+    "nome": "Miguel de Moura Crespo",
+    "cargo": "Diretor da ECI",
+    "linkedin": "https://www.linkedin.com/in/miguel-de-moura-crespo/",
+    "foto": "miguel.png"
+  },
+  {
+    "id": 9,
+    "nome": "Pedro Landgraf Pinto",
+    "cargo": "Membro da Mecânica",
+    "linkedin": "https://www.linkedin.com/in/pedrolandgraf/",
+    "foto": "pedro_landgraf.png"
+  },
+  {
+    "id": 10,
+    "nome": "Vinícius Duarte Ursini",
+    "cargo": "Membro da ECI",
+    "linkedin": "https://www.linkedin.com/in/vin%C3%ADcius-ursini/",
+    "foto": "vinicius_ursini.png"
+  },
+  {
+    "id": 11,
+    "nome": "Pedro Antuan de Itapema Issa",
+    "cargo": "Membro da ECI",
+    "linkedin": ""
+  },
+  {
+    "id": 12,
+    "nome": "Enzo Nantes Rodrigues",
+    "cargo": "Membro da ECI",
+    "linkedin": ""
+  },
+  {
+    "id": 13,
+    "nome": "Vitor Yugo Tanaka Teixeira de Camargo",
+    "cargo": "Membro da ECI",
+    "linkedin": "https://www.linkedin.com/in/vitor-yugo-tanaka-teixeira-de-camargo-425597359/",
+    "foto": "vitor.png"
+  },
+  {
+    "id": 14,
+    "nome": "Lucca Nogueira Ronzella",
+    "cargo": "Membro da Mecânica",
+    "linkedin": ""
+  },
+  {
+    "id": 15,
+    "nome": "Diego Rodrigues Paduano",
+    "cargo": "Membro da Mecânica",
+    "linkedin": ""
+  },
+  {
+    "id": 16,
+    "nome": "Bruna Takaki Schmidt",
+    "cargo": "Membro da Mecânica",
+    "linkedin": "https://www.linkedin.com/in/bruna-takaki-a441a7433/",
+    "foto": "bruna_takaki.png"
+  },
+  {
+    "id": 17,
+    "nome": "Bianca da Silva Gomes",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 18,
+    "nome": "Caio Vinícius Teixeira Santana",
+    "cargo": "Diretor Administrativo",
+    "linkedin": "https://www.linkedin.com/in/caio-vin%C3%ADcius-9213353a4/",
+    "foto": "caio_vinicius.png"
+  },
+  {
+    "id": 19,
+    "nome": "Diego Marchesano Cukier",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 20,
+    "nome": "Enzo Varani Souto",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 21,
+    "nome": "Fernando Henrique Favilla",
+    "cargo": "Membro da ECI",
+    "linkedin": "https://www.linkedin.com/in/fernandohenriquefavilla/",
+    "foto": "fernando_henrrique.png"
+  },
+  {
+    "id": 22,
+    "nome": "Gustavo Silva de Oliveira",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 23,
+    "nome": "Isaac Cardozo de Melo Pereira",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 24,
+    "nome": "Leonardo Castro de Vecchio",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 25,
+    "nome": "Leticia Correia Souto Amorim",
+    "cargo": "Trainee",
+    "linkedin": ""
+  },
+  {
+    "id": 26,
+    "nome": "Maria Luiza Maia do Nascimento",
+    "cargo": "Trainee",
+    "linkedin": ""
+  }
 ]

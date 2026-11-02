@@ -3,7 +3,7 @@ import redesSociais from '../../data/redesSociais';
 import SocialIcon from '../../components/SocialIcon/SocialIcon';
 import './Contato.css';
 
-const CONTACT_EMAIL = 'contato@jupiterunicamp.com.br';
+const CONTACT_EMAIL = 'jupiter@unicamp.br';
 
 export default function Contato() {
   const [form, setForm] = useState({ nome: '', email: '', mensagem: '' });
